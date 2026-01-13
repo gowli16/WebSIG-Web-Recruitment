@@ -1,11 +1,11 @@
 HTML is the base of every website the structure of your desired website depends on the HTML structure
 in other words its like the blueprint when building a building
 
-The <div> tag is a division or section that creates a separate section in your html page 
+The div tag is a division or section that creates a separate section in your html page 
 this division is used as a container for HTMl elements such as headings, tables , images etc
 The elements contained in a div tag is uncertain there are endless possibilities as to what the 
 div tag can contain
-Semantic tags are predefined tags one such tag is <heading> this tag has one specific meaning 
+Semantic tags are predefined tags one such tag is heading (h1) this tag has one specific meaning 
 and can only contain a heading. The elements contained inside the semantic tags are definite and
 from the tag itself its clear what the function of the tag is.
 
@@ -19,3 +19,6 @@ Challenges I faced
   manually takes more time and effort
 
 - I had issues with the footer tag and i had difficulty integrating it into the website
+- I also had some issues with the table as it didnt fit into the theme of my website
+
+  
