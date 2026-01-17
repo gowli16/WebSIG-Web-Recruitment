@@ -21,5 +21,8 @@ Challenges I faced
 
 - I had issues with the footer tag and i had difficulty integrating it into the website
 - I also had some issues with the table as it didnt fit into the theme of my website
+  
+- The design of the website took a long time to complete i made like 2-3 prototypes before designing
+the final website. Integrating the semantic tags into the website proved to be difficult.
 
   
