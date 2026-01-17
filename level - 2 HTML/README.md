@@ -9,7 +9,7 @@ Semantic tags are predefined tags one such tag is heading (h1) this tag has one 
 and can only contain a heading. The elements contained inside the semantic tags are definite and
 from the tag itself its clear what the function of the tag is.
 
-My website contains information about the Hersheys Californian Almond bites I used some inline CSS for 
+My website contains information about the Hersheys Dark blueberry and Acai bites bites I used some inline CSS for 
 the color and positioning as well as the basic HTML tags. Since I did not use bootstrap there are some
 allignment issues when switching to another device. 
 
