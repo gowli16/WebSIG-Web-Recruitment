@@ -1,1 +1,175 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 
+}
+
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    order: 2px;
+    height: 550px;
+    width: 350px;
+    background-color: lightblue;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 350px;
+    background-color: lightgreen;
+    order: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 350px;
+    background-color: lightcoral;
+    order: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 350px;
+    background-color: lightgoldenrodyellow;
+    order: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    color: darkslategray;
+}
+
+#div1 {
+    background-color: rgb(168, 159, 162);
+    display: flex;
+    align-items: start;
+    width: 100%;
+    order: 1px;
+
+}
+
+#p1 {
+    display: flex;
+    justify-content: center;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: black;
+    flex: 1;
+    margin-left: 10px;
+}
+
+h2 {
+
+    font-family: Verdana;
+    color: darkslategray;
+    margin-top: 60px;
+    margin-left: 10px;
+
+}
+
+#div2 {
+    background-color: rgb(168, 159, 162);
+    display: flex;
+    align-items: start;
+    height: 400px;
+    width: 100%;
+    order: 6px;
+
+}
+
+#varkala {
+    overflow: hidden;
+    transition: transform 0.5s;
+    object-fit: cover;
+    display: block;
+}
+
+#varkala:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#munnar {
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+#munnar:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#kovalam {
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+#kovalam:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#wayanad {
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+#wayanad:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#vh2 {
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    color: white;
+
+
+}
+
+#mh2 {
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    color: white;
+
+
+
+}
+
+#kh2 {
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    color: white;
+
+
+
+}
+
+#wh2 {
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    color: white;
+
+
+
+}
