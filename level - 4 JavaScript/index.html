@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Sample HTML Page</title>
+    <script src="script.js"></script>
+    <style>
+        #button1 {
+            background-color: pink;
+            height: 50px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        #message {
+            width: 300px;
+            height: 20px;
+        }
+
+        #a {
+            width: 300px;
+            height: 20px;
+
+        }
+
+        #a:hover {
+            background-color: lightgrey;
+        }
+
+        #b {
+            width: 300px;
+            height: 20px;
+        }
+
+
+
+        #c {
+            width: 300px;
+            height: 20px;
+        }
+
+        #c:hover {
+            background-color: lightgrey;
+        }
+
+
+        #d {
+            width: 300px;
+            height: 20px;
+        }
+
+        #d:hover {
+            background-color: lightgrey;
+        }
+
+        #e {
+            width: 20px;
+            height: 20px;
+        }
+
+        #e:hover {
+            background-color: lightgrey;
+        }
+
+        #f {
+            width: 300px;
+            height: 20px;
+        }
+
+        #f:hover {
+            background-color: lightgrey;
+        }
+
+        #h {
+            width: 300px;
+            height: 20px;
+        }
+
+        #h:hover {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin-left:550px;background-color:lightslategrey;height:800px;width:400px;padding:20px;">
+        <label>Enter a message</label>
+        <br>
+        <input type="text" id="message">
+        <button id="button1" onclick="button1()">click me</button>
+        <br><br>
+        <label> enter name</label>
+        <br><br>
+        <input type="text" id="a" onblur="nam()">
+        <div id="aa"> </div>
+        <br>
+
+        <label> enter user-id </label>
+        <br><br>
+        <input type="text" id="b" onblur="usert()">
+        <div id="bb"> </div>
+        <br>
+
+        <label> enter email </label>
+        <br><br>
+        <input type="email" id="c">
+        <div id="cc"> </div>
+        <br>
+
+        <label> enter password </label>
+        <br><br>
+        <input type="password" id="d" onkeyup="pa()">
+        <div id="dd"> </div>
+        <br>
+
+        <label> show password </label>
+        <input type="checkbox" id="e" onclick="dv()">
+        <div id="ee"> </div>
+        <br>
+
+        <label> confirm password </label>
+        <br><br>
+        <input type="password" id="f" onblur="cb()">
+        <div id="ff"> </div>
+        <br>
+
+        <label> show confirmed password </label>
+        <input type="checkbox" id="g" onclick="ef()">
+        <br><br>
+
+        <label> enter phone number </label>
+        <br><br>
+        <input type="number" id="h" onblur="ph()">
+        <div id="hh"> </div>
+        <br>
+
+        <button type="submit" class="btn">OK</button>
+        </form>
+        <div id="b"> </div>
+
+        <button type="button" onclick="changecolor()">click to change color</button>
+    </div>
+
+</body>
+
+</html>
